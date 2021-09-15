@@ -2,15 +2,15 @@
 
 # Критерии приема
 
-- Создан репозиторий `goit-js-hw-07`
-- При сдаче домашней работы есть две ссылки: на исходные файлы и рабочую
-  страницу на GitHub pages
-- Задание выполнено строго по ТЗ
-- Каждое задание выполнено в отдельном файле с именем `task-номер_задания.js`.
-- При посещении рабочей страницы (GitHub pages) задания, в консоли нету ошибок и
-  предупреждений
-- Имена переменных и функций понятные, описательные
-- Код отформатирован с помощью Prettier
+-   Создан репозиторий `goit-js-hw-07`
+-   При сдаче домашней работы есть две ссылки: на исходные файлы и рабочую
+    страницу на GitHub pages
+-   Задание выполнено строго по ТЗ
+-   Каждое задание выполнено в отдельном файле с именем `task-номер_задания.js`.
+-   При посещении рабочей страницы (GitHub pages) задания, в консоли нету ошибок и
+    предупреждений
+-   Имена переменных и функций понятные, описательные
+-   Код отформатирован с помощью Prettier
 
 ## Стартовые файлы
 
@@ -23,36 +23,36 @@
 
 ```html
 <ul id="categories">
-  <li class="item">
-    <h2>Животные</h2>
+    <li class="item">
+        <h2>Животные</h2>
 
-    <ul>
-      <li>Кот</li>
-      <li>Хомяк</li>
-      <li>Лошадь</li>
-      <li>Попугай</li>
-    </ul>
-  </li>
-  <li class="item">
-    <h2>Продукты</h2>
+        <ul>
+            <li>Кот</li>
+            <li>Хомяк</li>
+            <li>Лошадь</li>
+            <li>Попугай</li>
+        </ul>
+    </li>
+    <li class="item">
+        <h2>Продукты</h2>
 
-    <ul>
-      <li>Хлеб</li>
-      <li>Петрушка</li>
-      <li>Творог</li>
-    </ul>
-  </li>
-  <li class="item">
-    <h2>Технологии</h2>
+        <ul>
+            <li>Хлеб</li>
+            <li>Петрушка</li>
+            <li>Творог</li>
+        </ul>
+    </li>
+    <li class="item">
+        <h2>Технологии</h2>
 
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Node</li>
-    </ul>
-  </li>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node</li>
+        </ul>
+    </li>
 </ul>
 ```
 
@@ -67,8 +67,8 @@
 
 Например для первой категории получится:
 
-- Категория: Животные
-- Количество элементов: 4
+-   Категория: Животные
+-   Количество элементов: 4
 
 ## Задание 2
 
@@ -81,14 +81,7 @@
 В JS есть массив строк.
 
 ```js
-const ingredients = [
-  'Картошка',
-  'Грибы',
-  'Чеснок',
-  'Помидоры',
-  'Зелень',
-  'Приправы',
-];
+const ingredients = ['Картошка', 'Грибы', 'Чеснок', 'Помидоры', 'Зелень', 'Приправы'];
 ```
 
 Напиши скрипт, который для каждого элемента массива `ingredients` создаст
@@ -108,24 +101,24 @@ const ingredients = [
 Используй массив объектов `images` для создания тегов `img` вложенных в `li`.
 Для создания разметки используй шаблонные строки и `insertAdjacentHTML()`.
 
-- Все элементы галереи должны добавляться в DOM за одну операцию вставки.
-- Добавь минимальное оформление галереи флексбоксами или гридами через
-  css-классы.
+-   Все элементы галереи должны добавляться в DOM за одну операцию вставки.
+-   Добавь минимальное оформление галереи флексбоксами или гридами через
+    css-классы.
 
 ```js
 const images = [
-  {
-    url: 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    alt: 'White and Black Long Fur Cat',
-  },
-  {
-    url: 'https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    alt: 'Orange and White Koi Fish Near Yellow Koi Fish',
-  },
-  {
-    url: 'https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    alt: 'Group of Horses Running',
-  },
+    {
+        url: 'https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        alt: 'White and Black Long Fur Cat',
+    },
+    {
+        url: 'https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        alt: 'Orange and White Koi Fish Near Yellow Koi Fish',
+    },
+    {
+        url: 'https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        alt: 'Group of Horses Running',
+    },
 ];
 ```
 
@@ -134,17 +127,17 @@ const images = [
 Счетчик состоит из спана и кнопок, которые должны увеличивать и уменьшать
 значение счетчика на `1`.
 
-- Создай переменную `counterValue` в которой будет хранится текущее значение
-  счетчика.
-- Создай функции `increment` и `decrement` для увеличения и уменьшения значения
-  счетчика
-- Добавь слушатели кликов на кнопки, вызовы функций и обновление интерфейса
+-   Создай переменную `counterValue` в которой будет хранится текущее значение
+    счетчика.
+-   Создай функции `increment` и `decrement` для увеличения и уменьшения значения
+    счетчика
+-   Добавь слушатели кликов на кнопки, вызовы функций и обновление интерфейса
 
 ```html
 <div id="counter">
-  <button type="button" data-action="decrement">-1</button>
-  <span id="value">0</span>
-  <button type="button" data-action="increment">+1</button>
+    <button type="button" data-action="decrement">-1</button>
+    <span id="value">0</span>
+    <button type="button" data-action="increment">+1</button>
 </div>
 ```
 
@@ -165,32 +158,27 @@ input), подставляет его текущее значение в `span#n
 на правильное количество символов.
 
 ```html
-<input
-  type="text"
-  id="validation-input"
-  data-length="6"
-  placeholder="Введи 6 символов"
-/>
+<input type="text" id="validation-input" data-length="6" placeholder="Введи 6 символов" />
 ```
 
-- Сколько символов должно быть в инпуте, указывается в его атрибуте
-  `data-length`.
-- Если введено подходящее количество, то `border` инпута становится зеленым,
-  если неправильное - красным.
+-   Сколько символов должно быть в инпуте, указывается в его атрибуте
+    `data-length`.
+-   Если введено подходящее количество, то `border` инпута становится зеленым,
+    если неправильное - красным.
 
 Для добавления стилей, используй CSS-классы `valid` и `invalid`.
 
 ```css
 #validation-input {
-  border: 3px solid #bdbdbd;
+    border: 3px solid #bdbdbd;
 }
 
 #validation-input.valid {
-  border-color: #4caf50;
+    border-color: #4caf50;
 }
 
 #validation-input.invalid {
-  border-color: #f44336;
+    border-color: #f44336;
 }
 ```
 
@@ -220,18 +208,18 @@ input), подставляет его текущее значение в `span#n
 
 Каждый созданный div:
 
-- Имеет случайный rgb цвет фона
-- Размеры самого первого div - 30px на 30px
-- Каждый следующий div после первого, должен быть шире и выше предыдущего на
-  10px
+-   Имеет случайный rgb цвет фона
+-   Размеры самого первого div - 30px на 30px
+-   Каждый следующий div после первого, должен быть шире и выше предыдущего на
+    10px
 
 Создай функцию `destroyBoxes()`, которая очищает `div#boxes`.
 
 ```html
 <div id="controls">
-  <input type="number" min="0" max="100" step="1" />
-  <button type="button" data-action="render">Создать</button>
-  <button type="button" data-action="destroy">Очистить</button>
+    <input type="number" min="0" max="100" step="1" />
+    <button type="button" data-action="render">Создать</button>
+    <button type="button" data-action="destroy">Очистить</button>
 </div>
 
 <div id="boxes"></div>
